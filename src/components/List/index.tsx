@@ -34,6 +34,7 @@ type Props = {
 }
 
 export const List: React.FC<Props> = ({
+
   getData,
   todoList
 }) => {
@@ -71,6 +72,7 @@ export const List: React.FC<Props> = ({
     }
 
     await getData();
+
   }
 
   return (

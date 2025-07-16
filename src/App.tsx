@@ -1,9 +1,11 @@
 import React from "react";
 import styled from "@emotion/styled";
+
 import { Typography } from "@mui/material";
 
 import { InputForm } from "./components/InputForm";
 import { List } from "./components/List";
+
 
 const StyledContainer = styled.div`
   width: 327px;
@@ -43,6 +45,7 @@ function App() {
   React.useEffect(() => {
     getTodoList();
   }, []);
+
 
   return (
     <StyledContainer>
